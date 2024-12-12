@@ -3,7 +3,7 @@
 $host = 'localhost:3306';  // Endereço do servidor MySQL
 $dbname = 'academiaDJ'; // Nome do banco de dados
 $username = 'root';   // Usuário do MySQL
-$password = '';       // Senha do MySQL
+$password = 'cimatec';       // Senha do MySQL
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);

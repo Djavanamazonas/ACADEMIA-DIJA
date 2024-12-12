@@ -37,17 +37,6 @@ CREATE TABLE IF NOT EXISTS pessoa_exercicio (
     FOREIGN KEY (exercicio_id) REFERENCES exercicios(id) ON DELETE CASCADE  -- Se exercício for deletado, apaga a associação
 );
 
-CREATE TABLE usuarios (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(100) NOT NULL,
-    email VARCHAR(100) NOT NULL UNIQUE,
-    senha VARCHAR(255) NOT NULL
-);
-
-ALTER TABLE exercicios MODIFY COLUMN duracao INT NOT NULL; 
-
-INSERT INTO usuarios (nome, email, senha) 
-VALUES ('Igor', 'igor@email.com', '123');
 
 
 

@@ -9,7 +9,7 @@
 
 /* Corpo da página */
 body {
-    background-image: url('images/cabecalho.jpg');
+    background-image: url('images/academia.jpg');
     background-size: cover; /* Faz a imagem cobrir toda a tela */
     background-position: center center; /* Centraliza a imagem */
     background-attachment: fixed; /* Faz a imagem ficar fixa enquanto rola a página */
